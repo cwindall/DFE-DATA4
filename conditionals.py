@@ -44,3 +44,18 @@
 #    print('This is not a letter.')
 
 
+# if metric =='C':
+#     conv=(temp*9/5)+32
+#     print(f'{temp}°C is {conv} in Fahrenheit')
+# else:
+#     conv=(5/9)*(temp-32)
+#     print(f'{temp}°F is {conv} in Celsius')
+
+# for i in range(1,51):
+#     if i%3==0 and i%5==0:
+#         print('Fizzbuzz')
+#     elif i%5==0:
+#         print('Fizz')
+#     elif i%3==0:
+#         print('Buzz')
+

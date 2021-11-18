@@ -4,7 +4,7 @@
 # print(math.lcm(44,28))
 
 # import random
- #help(random)
+# help(random)
 # print(random.uniform(2,28))
 
 #Run pip install pip in terminal
@@ -12,8 +12,8 @@
 #Run pip install pyjokes in terminal
 # import emoji
 # import pyjokes
-#print(emoji.emojize('Python is a type of :snake:'))
-#print(pyjokes.get_joke())
+# print(emoji.emojize('Python is a type of :snake:'))
+# print(pyjokes.get_joke())
 
 
 #import pdb

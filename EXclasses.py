@@ -78,3 +78,43 @@
 
 #We have used polymorphism to override the reproduce method, aand flt and extinct variables, encapsulation
 #to keep the babies variable from being directly accessed as well as inheritance again
+
+
+#Goal: “Create class and sub-class objects which represent different geometrical shapes, such as Rectangles and Squares”
+
+# from abc import ABC, abstractmethod
+# from math import sqrt
+
+# class RegularPolygon(ABC):
+#     def __init__(self):
+#         self.sides=0.0
+#         self.sidelength=0.0
+#     def perimeter(self):
+#         print(self.sides * self.sidelength)
+#     @abstractmethod
+#     def area(self):
+#         pass
+
+# class Triangle(RegularPolygon):
+#     def __init__(self,sidelength):
+#         self.sides=3
+#         self.sidelength=sidelength
+#     def area(self):
+#         print(((sqrt(3))/4)*(self.sidelength**2))
+
+# class Square(RegularPolygon):
+#     def __init__(self,sidelength):
+#         self.sides=4
+#         self.sidelength=sidelength
+#     def area(self):
+#         print(self.sidelength**2)
+
+# class Pentagon(RegularPolygon):
+#     def __init__(self,sidelength):
+#         self.sides=5
+#         self.sidelength=sidelength
+#     def area(self):
+#         print(0.25 * sqrt( 25+ (10*sqrt(5) ) ) * ( (self.sidelength)**2) )
+
+# pent=Pentagon(5)
+

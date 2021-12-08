@@ -1,4 +1,5 @@
 ------
+Containing the code to make an SQL database and tables for a game store. Created to practice creating tables, inserting, and modifying data.
 Create a database for the tables
 ------
 
